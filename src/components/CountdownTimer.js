@@ -1,6 +1,6 @@
 import React from 'react';
 import useCountdown from '../hooks/useCoundown';
-import { formatNumber } from '../utils/formatNumber';
+import { formatNumber } from '../utils/formatNumbers';
 
 const CountdownTimer = ({ submit }) => {
   const timeout = localStorage.getItem('timeout');
